@@ -27,6 +27,7 @@
     "editorconfig": "editorconfig-cli",
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
     "lint": "npm run editorconfig && npm run stylelint",
+    "webp": "gulp webp",
     "build": "gulp build",
     "start": "gulp",
     "deploy": "npm run build && gh-pages -d build"
